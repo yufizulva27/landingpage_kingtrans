@@ -6,15 +6,15 @@
 }
 
 :root {
-    --bg-primary: #fff;
-    --bg-secondary: #377dff;
-    --txt-primary: #377dff;
+    --bg-primary: #5392f9;
+    --bg-secondary: #224d8f;
+    --txt-primary: #5392f9;
     --txt-secondary: #fff;
 }
 
 .container-nav-contact {
-    box-sizing: border-box;
     border-bottom: 1px solid rgb(227, 236, 250);
+    padding-inline: 8px;
 }
 
 .nav-contact-ul {
@@ -23,7 +23,6 @@
     display: flex;
     justify-content: left;
     margin-left: 20px;
-    
 }
 
 .nav-contact-li{
@@ -34,17 +33,13 @@
     color: rgb(64, 61, 61);
 }
 
-.navbar {
-    /* background-color: aqua; */
-    border-bottom: 1px solid rgb(227, 236, 250);
-}
-
-.logo, img {
+.logo {
     /* background-color: #377dff; */
     display: flex;
     float: left;
-    width: 200px;
-    padding-right: 240px;
+    padding: 29px 0px;
+    padding-left: 23px;
+    width: 13%;
 }
 
 .nav-ul {
@@ -58,7 +53,7 @@
 
 .nav-li {
     padding-inline: 22px;
-    margin-block: 45px 45px;
+    margin-block: 38px 38px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -76,13 +71,59 @@
     cursor: pointer;
 }
 
-.title {
-    background-color: tomato;
-    padding: 100vh;
+.content-img1 {
+    width: 100%;
+}
+
+.container-main {
+    /* background-color: #4c8f22; */
+    padding: 1.3% 3.2%;
+}
+
+.service-content {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-desc {
+    /* background-color: #224d8f; */
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.desc-service {
+    /* background-color: #5392f9; */
+    font-size: 14px;
+    font-weight: 550;
+    padding-left: 14em;
+}
+
+.wrapper {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 150px;
+    height: 260px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
 }
 
 .footer {
-    background-color: #377dff;
-    text-align: center;
-    margin: 50px;
+    background-color: var(--bg-secondary);
+    padding: 32px;
+}
+
+.footer-content {
+    color: var(--txt-secondary);
+    font-size: 14px;
+    font-weight: 520;
+    text-align: left;
+    padding-left: 23px;
 }
