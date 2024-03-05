@@ -12,6 +12,11 @@
     --txt-secondary: #fff;
 }
 
+.container {
+    /* background-color: #4c8f22; */
+    padding: 1.3% 3.2%;
+}
+
 .container-nav-contact {
     border-bottom: 1px solid rgb(227, 236, 250);
     padding-inline: 8px;
@@ -75,10 +80,6 @@
     width: 100%;
 }
 
-.container-main {
-    /* background-color: #4c8f22; */
-    padding: 1.3% 3.2%;
-}
 
 .service-content {
     /* background-color: aqua; */
@@ -104,15 +105,6 @@
     display: flex;
     width: 70%;
     justify-content: space-around;
-}
-
-.card {
-    width: 150px;
-    height: 260px;
-    padding: 2rem 1rem;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
 }
 
 .footer {
